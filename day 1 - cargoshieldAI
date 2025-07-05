@@ -1,0 +1,90 @@
+Microsoft Windows [Version 10.0.26100.3775]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\UVARAJ.A>Desktop
+'Desktop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\UVARAJ.A>cd Desktop
+
+C:\Users\UVARAJ.A\Desktop>mkdir CargoShieldAI
+
+C:\Users\UVARAJ.A\Desktop>cd CargoShieldAI
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>mkdir data model app api cloud
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>touch README.md .gitignore requirements.txt
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI> README.md
+'README.md' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>type nul > README.md
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>type nul > .gitignore
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>type nul > requirements.txt
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is B47B-5861
+
+ Directory of C:\Users\UVARAJ.A\Desktop\CargoShieldAI
+
+07/06/2025  12:00 AM    <DIR>          .
+07/05/2025  11:56 PM    <DIR>          ..
+07/05/2025  11:59 PM                 0 .gitignore
+07/05/2025  11:57 PM    <DIR>          api
+07/05/2025  11:57 PM    <DIR>          app
+07/05/2025  11:57 PM    <DIR>          cloud
+07/05/2025  11:57 PM    <DIR>          data
+07/05/2025  11:57 PM    <DIR>          model
+07/05/2025  11:59 PM                 0 README.md
+07/06/2025  12:00 AM                 0 requirements.txt
+               3 File(s)              0 bytes
+               7 Dir(s)  16,870,604,800 bytes free
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git init
+Initialized empty Git repository in C:/Users/UVARAJ.A/Desktop/CargoShieldAI/.git/
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git add .
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git commit -m "Initial commit - project structure setup"
+[master (root-commit) 463181b] Initial commit - project structure setup
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 requirements.txt
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>https://github.com/Mahaamimiii/CargoSheildAI.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git remote add origin https://github.com/Mahaamimiii/CargoShieldAI.git
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git branch -M main
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git push -u origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/Mahaamimiii/CargoShieldAI.git/' not found
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git remote set-url origin https://github.com/Mahaamimiii/CargoShieldAI.git
+
+C:\Users\UVARAJ.A\Desktop\CargoShieldAI>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 265 bytes | 265.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mahaamimiii/CargoShieldAI.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
